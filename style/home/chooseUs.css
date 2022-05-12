@@ -1,0 +1,254 @@
+.tw-why-choose-area {
+  padding-bottom: 100px;
+}
+.tw-why-choose-area-top {
+  background-position: bottom right;
+}
+.tw-why-choose-section .row {
+  align-items: center;
+  padding-bottom: 90px;
+}
+.section-head.left.wt-small-separator-outer {
+  text-align: left;
+}
+.section-head.left.wt-small-separator-outer h2 {
+  margin-bottom: 35px;
+}
+
+.section-head .section-head-text {
+  font-size: 14px;
+}
+.section-head.left.wt-small-separator-outer p {
+  margin-bottom: 40px;
+}
+.tw-why-choose-section .tw-why-choose-left strong {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  display: block;
+}
+.tw-why-choose-section .tw-why-choose-left .tw-why-choose-left-bottom {
+  padding-top: 30px;
+  display: flex;
+}
+.tw-why-choose-section
+  .tw-why-choose-left
+  .tw-why-choose-left-bottom
+  .site-button {
+  margin-right: 30px;
+}
+.tw-why-choose-section
+  .tw-why-choose-left
+  .tw-why-choose-left-bottom
+  .sign-font {
+  position: relative;
+}
+.tw-why-choose-section
+  .tw-why-choose-left
+  .tw-why-choose-left-bottom
+  .sign-font
+  span {
+  font-family: "Sacramento", cursive;
+  font-size: 45px;
+  color: #000;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: rotate(-20deg);
+}
+.tw-why-choose-section .tw-why-choose-right {
+  position: relative;
+}
+.tw-why-choose-section .tw-why-choose-right .tw-why-choose-media1 {
+  position: relative;
+  max-width: 338px;
+  padding-top: 160px;
+}
+.shine-effect .shine-box {
+  position: relative;
+  overflow: hidden;
+}
+.shine-effect .shine-box:before {
+  position: absolute;
+  top: 0;
+  left: -90%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  transform: skewX(-25deg);
+}
+.tw-why-choose-section .tw-why-choose-right .tw-why-choose-media1 img {
+  width: 100%;
+}
+.tw-why-choose-section .tw-why-choose-right .tw-why-choose-media2 {
+  position: absolute;
+  max-width: 338px;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+.shine-effect .shine-box {
+  position: relative;
+  overflow: hidden;
+}
+.tw-why-choose-section .tw-why-choose-right .tw-why-choose-media2:after {
+  position: absolute;
+  content: "";
+  border-left: 40px solid #fff;
+  border-bottom: 40px solid #fff;
+  left: -40px;
+  bottom: -40px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  box-shadow: 0px 40px 60px rgb(30 143 208 / 70%);
+}
+.shine-effect .shine-box:hover:before {
+  animation: shine 0.75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.tw-hilite-text-wrap2 {
+  position: relative;
+}
+.tw-hilite-text-wrap2 .tw-hilite-text span {
+  display: inline-table;
+  font-family: "Oswald", sans-serif;
+  font-size: 120px;
+  line-height: 0.75;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  opacity: 0.05;
+}
+.tw-any-help-section .container {
+  position: relative;
+}
+.tw-any-help-section .container .tw-any-help-inner {
+  background-color: #fff;
+  padding: 30px;
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0px 20px 40px rgb(255 138 0 / 40%);
+}
+.tw-any-help-section .container .tw-any-help-inner img {
+  position: absolute;
+  left: -150px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tw-any-help-section .container .tw-any-help-inner span {
+  display: block;
+}
+.tw-any-help-section .container .tw-any-help-inner span.tw-24 {
+  text-transform: uppercase;
+  color: #0b2f44;
+}
+.tw-any-help-section .container .tw-any-help-inner span.tw-help-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ff8a00;
+  font-family: "Oswald", sans-serif;
+}
+.tw-any-help-section .container .tw-any-help-inner span.tw-help-number {
+  font-size: 32px;
+  font-weight: 500;
+  color: #0b2f44;
+}
+
+/* media query */
+
+@media (max-width: 991px) {
+  .tw-why-choose-area {
+    padding-bottom: 40px;
+  }
+  .tw-why-choose-section .row {
+    padding-bottom: 0px;
+  }
+  .tw-why-choose-section .tw-why-choose-left {
+    margin-bottom: 50px;
+  }
+  .tw-why-choose-section .tw-why-choose-right {
+    margin-bottom: 30px;
+  }
+  .tw-hilite-text-wrap2 .tw-hilite-text span {
+    display: none;
+  }
+  .tw-any-help-section .container .tw-any-help-inner {
+    position: inherit;
+    transform: none;
+    margin-top: 60px;
+  }
+  .tw-any-help-section .container .tw-any-help-inner img {
+    position: inherit;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin-bottom: 20px;
+  }
+  .tw-any-help-section .container .tw-any-help-inner span.tw-help-title {
+    font-size: 26px;
+  }
+  .tw-any-help-section .container .tw-any-help-inner span.tw-help-number {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tw-why-choose-area-top {
+    background-size: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .tw-why-choose-section .tw-why-choose-left {
+    margin-bottom: 40px;
+  }
+  .tw-why-choose-section .tw-why-choose-left .tw-why-choose-left-bottom {
+    display: block;
+  }
+  .tw-why-choose-section
+    .tw-why-choose-left
+    .tw-why-choose-left-bottom
+    .sign-font
+    span {
+    position: relative;
+  }
+  .tw-why-choose-section .tw-why-choose-right .tw-why-choose-media1 {
+    padding-top: 0px;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .tw-why-choose-section .tw-why-choose-right .tw-why-choose-media2 {
+    position: inherit;
+    max-width: 100%;
+    margin-left: 20px;
+  }
+  .tw-why-choose-section .tw-why-choose-right .tw-why-choose-media2:after {
+    border-left: 20px solid #fff;
+    border-bottom: 20px solid #fff;
+    left: -20px;
+    bottom: -20px;
+  }
+}

@@ -1,0 +1,258 @@
+.tyre-mark-bg {
+  position: relative;
+  z-index: 1;
+}
+.tyre-mark-bg:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url(../../images/tyre-mark.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.services-gallery-style1 {
+  margin-bottom: 30px;
+}
+
+.section-head.center.wt-small-separator-outer {
+  margin-bottom: 50px;
+  text-align: center;
+  max-width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-box-style1 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.service-box-style1 .service-content {
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  transition: all 0.8s linear;
+}
+.service-box-style1 .service-content .service-content-inner {
+  padding: 20px;
+  margin: 20px;
+  transition: all 0.8s linear;
+  background-color: rgba(11, 47, 68, 0.9);
+  position: relative;
+  display: table;
+  height: 0%;
+}
+.service-box-style1
+  .service-content
+  .service-content-inner
+  .service-content-top {
+  display: table-header-group;
+}
+.service-box-style1
+  .service-content
+  .service-content-inner
+  .service-content-top
+  .service-title-large {
+  text-align: right;
+}
+.service-box-style1
+  .service-content
+  .service-content-inner
+  .service-content-top
+  .service-title-large
+  a {
+  color: #fff;
+  transition: all 0.8s linear;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 0.7;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.service-box-style1
+  .service-content
+  .service-content-inner
+  .service-content-bottom {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.service-box-style1
+  .service-content
+  .service-content-inner
+  .service-content-bottom
+  .service-title-large-number {
+  font-size: 40px;
+  color: #fff;
+  transition: all 0.8s linear;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+
+.service-box-style1
+  .service-content
+  .service-content-inner
+  .service-content-bottom
+  p {
+  color: #fff;
+  transition: all 0.8s linear;
+  margin-bottom: 20px;
+}
+.site-button-2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: 0.5s all ease;
+  position: relative;
+  overflow: hidden;
+}
+.service-box-style1
+  .service-content
+  .service-content-inner
+  .service-content-bottom
+  .site-button-2 {
+  transition: all 0.8s linear;
+}
+.site-button-2:after {
+  content: "\f105";
+  position: absolute;
+  font-family: "FontAwesome";
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0px;
+  transition: 0.5s all ease;
+  opacity: 0;
+}
+.service-box-style1 .service-media img {
+  width: 100%;
+}
+.service-box-style1:hover .service-content {
+  bottom: 40px;
+  height: calc(100% - 40px);
+}
+.service-box-style1:hover .service-content .service-content-inner {
+  height: 100%;
+  background-color: rgba(255, 138, 0, 0.9);
+}
+.service-box-style1:hover
+  .service-content
+  .service-content-inner
+  .service-content-top
+  .service-title-large
+  a {
+  color: #0b2f44;
+}
+.service-box-style1:hover
+  .service-content
+  .service-content-inner
+  .service-content-bottom
+  .service-title-large-number {
+  color: #0b2f44;
+}
+.service-box-style1:hover
+  .service-content
+  .service-content-inner
+  .service-content-bottom
+  p {
+  color: #0b2f44;
+}
+.service-box-style1:hover
+  .service-content
+  .service-content-inner
+  .service-content-bottom
+  p {
+  color: #0b2f44;
+}
+.owl-carousel .owl-nav {
+  margin-top: 40px;
+  text-align: center;
+}
+.owl-btn-bottom-center .owl-nav {
+  text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background-color: #0b2f44;
+  color: #fff;
+  padding: 8px 16px !important;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0px;
+  opacity: 1;
+  margin-right: 5px;
+  font-weight: 500;
+}
+.owl-carousel .owl-nav button.owl-next:active,
+.owl-carousel .owl-nav button.owl-prev:active,
+.owl-carousel button.owl-dot:active {
+  background-color: #ff8a00;
+  color: #fff;
+  opacity: 0.9;
+}
+.owl-carousel .owl-nav button.owl-next i,
+.owl-carousel .owl-nav button.owl-prev i,
+.owl-carousel button.owl-dot i {
+  font-style: normal;
+}
+
+.tw-hilite-text-wrap {
+  position: relative;
+}
+.tw-hilite-text-wrap .tw-hilite-text {
+  position: absolute;
+}
+.tw-hilite-text-wrap .tw-hilite-text.right {
+  bottom: -80px;
+  right: 20px;
+}
+.tw-hilite-text-wrap .tw-hilite-text span {
+  display: inline-table;
+  font-family: "Oswald", sans-serif;
+  font-size: 120px;
+  line-height: 0.75;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  opacity: 0.05;
+}
+
+@media (max-width: 1200px) {
+  .services-gallery-style1 {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .services-gallery-style1 {
+    margin-bottom: 10px;
+  }
+  .service-box-style1
+    .service-content
+    .service-content-inner
+    .service-content-top
+    .service-title-large
+    a {
+    font-size: 26px;
+  }
+  .service-box-style1
+    .service-content
+    .service-content-inner
+    .service-content-bottom
+    .service-title-large-number {
+    font-size: 30px;
+  }
+}

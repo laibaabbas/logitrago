@@ -1,0 +1,210 @@
+.tw-project-1-wrap.tw-project-1-wrap-bg {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.tw-project-1-wrap.tw-project-1-wrap-bg:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image: url(../../images/project/project-bg.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.tw-project-1-wrap .tw-project-1-content {
+  position: relative;
+  margin-left: 30%;
+  margin-bottom: 120px;
+  padding-top: 90px;
+}
+.tw-project-1-wrap .tw-project-1-content .tw-project-1-content-position {
+  max-width: 1038px;
+  top: 45px;
+  padding: 65px 48px;
+  box-shadow: 0px 0px 50px rgb(30 143 208 / 50%);
+  position: relative;
+  z-index: 1;
+}
+.tw-project-1-wrap .tw-project-1-content .tw-project-1-content-position:before {
+  content: "";
+  position: absolute;
+  left: 48px;
+  top: -75px;
+  right: -75px;
+  bottom: -75px;
+  border: 20px solid #1e8fd0;
+  z-index: -1;
+}
+.tw-project-1-wrap .tw-project-1-content .tw-project-1-content-position:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  z-index: -1;
+}
+.section-head.left.wt-small-separator-outer {
+  text-align: left;
+}
+.tw-project-1-wrap .tw-project-1-content .tw-project-1-content-position:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  z-index: -1;
+}
+.project-new-2 {
+  position: relative;
+  margin-bottom: 50px;
+}
+.project-new-2 .wt-img-effect {
+  position: relative;
+}
+.project-new-2 .wt-img-effect img {
+  width: 100%;
+}
+.project-new-2 .project-view {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  opacity: 1;
+  transform: scaleY(0);
+  transition: transform 0.5s cubic-bezier(0.57, 0.04, 0.06, 0.84),
+    opacity 0s 0.5s;
+}
+.project-new-2 .project-view .project-view-btn {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+.project-new-2 .project-view .project-view-btn i {
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  line-height: 60px;
+  display: block;
+  text-align: center;
+  background-color: #ff8a00;
+  position: relative;
+  color: #fff;
+}
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+.project-new-2 .project-new-content {
+  padding: 22px 30px 30px 30px;
+  position: absolute;
+  background-color: #fff;
+  left: 30px;
+  bottom: -50px;
+  right: 0px;
+}
+.project-new-2 .project-new-content span {
+  display: inline-block;
+  color: #ff8a00;
+  font-size: 14px;
+  font-weight: 400;
+}
+.project-new-2 .project-new-content .wt-title {
+  margin-bottom: 0px;
+}
+.project-new-2 .project-new-content .wt-title a {
+  transition: 0.5s all ease;
+}
+
+.project-new-2 .project-new-content .site-button-h-align {
+  position: absolute;
+  font-size: 12px;
+  color: #0b2f44;
+  text-transform: uppercase;
+  font-weight: 600;
+  transform: rotate(-90deg) translateX(-50%);
+  left: 14px;
+  top: 50%;
+  transform-origin: 0;
+  margin-top: -15px;
+  transition: 0.5s all ease;
+}
+.project-new-2 .project-new-content .site-button-h-align:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  width: 15px;
+  height: 1px;
+  background-color: #ff8a00;
+  margin-right: 4px;
+}
+
+.project-new-2:hover .project-view {
+  opacity: 1;
+  z-index: 3;
+  transform: scaleY(1);
+}
+.project-new-2 .project-view .project-view-btn {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+.project-new-2 .project-view .project-view-btn i {
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  line-height: 60px;
+  display: block;
+  text-align: center;
+  background-color: #ff8a00;
+  position: relative;
+  color: #fff;
+}
+
+.owl-btn-bottom-left .owl-nav {
+  text-align: left;
+}
+
+@media (max-width: 1366px) {
+  .tw-project-1-wrap .tw-project-1-content {
+    margin-left: 24%;
+  }
+  .tw-project-1-wrap .tw-project-1-content .tw-project-1-content-position {
+    margin-right: 50px;
+  }
+  .tw-project-1-wrap
+    .tw-project-1-content
+    .tw-project-1-content-position:before {
+    right: -50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tw-project-1-wrap .tw-project-1-content {
+    margin-left: 0px;
+  }
+  .tw-project-1-wrap .tw-project-1-content .tw-project-1-content-position {
+    margin-right: 0px;
+  }
+  .tw-project-1-wrap
+    .tw-project-1-content
+    .tw-project-1-content-position:before {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .tw-project-1-wrap .tw-project-1-content .tw-project-1-content-position {
+    padding: 20px;
+  }
+}

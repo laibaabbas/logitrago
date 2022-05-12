@@ -1,0 +1,165 @@
+.tw-company-approch-section {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+.tw-company-approch-section:before {
+  position: absolute;
+  content: "";
+  top: -60px;
+  bottom: -60px;
+  left: 0px;
+  border-style: solid;
+  border-color: #ff8a00;
+  border-width: 60px 0px 60px 60px;
+  width: 300px;
+  z-index: 0;
+}
+.tw-company-approch-section .tw-company-approch-inner {
+  position: relative;
+  padding: 50px;
+  margin-left: 50px;
+  background-color: #fff;
+  box-shadow: 0px 0px 50px rgb(30 143 208 / 50%);
+  z-index: 1;
+  background-image: url(../../images/background/waves.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.tw-company-years {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.tw-company-years .light {
+  position: relative;
+  margin-right: 60px;
+  display: inline-flex;
+}
+.tw-company-years .light h1 {
+  font-size: 200px;
+  line-height: 0.75;
+  display: inline-table;
+  color: #0b2f44;
+  margin: 0px;
+}
+.tw-company-years img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  mix-blend-mode: lighten;
+  transform: translateY(-50%);
+}
+.tw-company-years .tw-company-info {
+  max-width: 500px;
+}
+.tw-company-years .tw-company-info span {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  color: #0b2f44;
+}
+.counter-outer-two {
+  position: relative;
+}
+.counter-outer-two .tw-counter-media {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.counter-outer-two .tw-counter-media {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.counter-outer-two .tw-counter-media img {
+  height: 70px;
+}
+.counter-outer-two .icon-content {
+  overflow: hidden;
+  padding-left: 100px;
+}
+.counter-outer-two .tw-count-number {
+  font-size: 46px;
+  line-height: 46px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.counter-outer-two .counter {
+  font-size: 46px;
+  line-height: 50px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.counter-outer-two .icon-content-info {
+  font-weight: 600;
+  color: #0b2f44;
+  margin-bottom: 0px;
+}
+@media (max-width: 991px) {
+  .tw-company-years .light {
+    margin-right: 20px;
+  }
+  .tw-company-years .light h1 {
+    font-size: 100px;
+  }
+  .tw-company-years .tw-company-info span {
+    font-size: 30px;
+  }
+  .counter-outer-two {
+    margin-bottom: 30px;
+  }
+  .tw-company-approch-section
+    .tw-company-approch-inner
+    .row
+    [class*="col-"]:last-child
+    .counter-outer-two {
+    margin-bottom: 0px;
+  }
+  .counter-outer-two .icon-content {
+    padding-left: 80px;
+  }
+  .counter-outer-two .tw-count-number {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .counter-outer-two .counter {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .counter-outer-two .tw-counter-media img {
+    height: 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  .counter-outer-two .counter {
+    font-size: 24px;
+  }
+}
+@media (max-width: 575px) {
+  .tw-company-approch-section {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .tw-company-approch-section:before {
+    top: -20px;
+    bottom: -20px;
+    left: 0px;
+    border-width: 20px 0px 20px 20px;
+    width: 200px;
+  }
+  .tw-company-approch-section .tw-company-approch-inner {
+    margin-left: 20px;
+    padding: 30px;
+  }
+  .tw-company-years {
+    display: block;
+  }
+  .tw-company-years .tw-company-info span {
+    font-size: 26px;
+  }
+}

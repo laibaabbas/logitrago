@@ -1,0 +1,326 @@
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+@media (min-width: 1020px) {
+  section.serviceSection {
+    height: 467px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.serviceSection div.serviceDivContainer {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.serviceSection div.serviceDivContainer div.serviceDivLeft {
+    width: 50%;
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 52% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 52% 0, 100% 100%, 0 100%);
+  }
+  section.serviceSection div.serviceDivContainer div.serviceDivRight {
+    width: 50%;
+    min-height: 100%;
+    padding: 80px 22px;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    span.serviceSmallHeading {
+    margin-bottom: 0;
+    line-height: 1rem;
+    font-size: 0.6875rem;
+    letter-spacing: 0.1rem;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    h3.serviceH3 {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+    line-height: normal;
+  }
+
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    p.servicePara {
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    letter-spacing: 0.025rem;
+    font-size: 1rem;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 0.25rem solid #ff8a00;
+    padding-bottom: 0.3125rem;
+    font-size: 1.125rem;
+    color: inherit;
+    text-transform: none;
+    letter-spacing: 0.025rem;
+    overflow: visible;
+    white-space: normal;
+    text-overflow: ellipsis;
+    transition: color 0.15s ease-in-out;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+    transition: 1s;
+    cursor: pointer;
+  }
+
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor
+    .arrowBookNow {
+    color: #ff8a00;
+    font-weight: 700;
+    transition: 0.2s;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor:after {
+    content: "";
+    border: 2px solid #ff8a00;
+    position: absolute;
+    width: 0;
+    bottom: -4px;
+    transition: 1s;
+    background: #ff8a00;
+  }
+  section.invert {
+    background-color: #f4f4f4;
+  }
+  section.invert div.serviceDivContainer {
+    flex-direction: row-reverse;
+  }
+  section.invert div.serviceDivContainer div.serviceDivLeft {
+    width: 50%;
+    height: 100%;
+    -webkit-clip-path: polygon(52% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(52% 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1020px) {
+  section.serviceSection,
+  section.serviceSection div.serviceDivContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.serviceSection,
+  section.serviceSection div.serviceDivContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.serviceSection div.serviceDivContainer {
+    height: 900px;
+    flex-direction: column;
+  }
+  section.serviceSection div.serviceDivContainer div.serviceDivLeft {
+    width: 100%;
+    height: 100%;
+  }
+  section.serviceSection div.serviceDivContainer div.serviceDivRight {
+    width: 80%;
+    height: 100%;
+    padding: 80px 50px;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    span.serviceSmallHeading {
+    margin-bottom: 0;
+    line-height: 1rem;
+    font-size: 0.6875rem;
+    letter-spacing: 0.1rem;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    h3.serviceH3 {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+    line-height: normal;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    p.servicePara {
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    letter-spacing: 0.025rem;
+    font-size: 1.1rem;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 0.25rem solid #ff8a00;
+    padding-bottom: 0.3125rem;
+    font-size: 1.125rem;
+    color: inherit;
+    text-transform: none;
+    letter-spacing: 0.025rem;
+    overflow: visible;
+    white-space: normal;
+    text-overflow: ellipsis;
+    transition: color 0.15s ease-in-out;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+    transition: 1s;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor
+    .arrowBookNow {
+    color: #ff8a00;
+    font-weight: 700;
+    transition: 0.2s;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor:after {
+    content: "";
+    border: 2px solid #ff8a00;
+    position: absolute;
+    width: 0;
+    bottom: -4px;
+    transition: 1s;
+    background: #ff8a00;
+  }
+}
+
+@media (max-width: 760px) {
+  section.serviceSection,
+  section.serviceSection div.serviceDivContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.serviceSection,
+  section.serviceSection div.serviceDivContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.serviceDivContainer {
+    height: 900px;
+    flex-direction: column;
+  }
+  section.serviceSection div.serviceDivContainer div.serviceDivLeft {
+    width: 100%;
+    height: 100%;
+  }
+  section.serviceSection div.serviceDivContainer div.serviceDivRight {
+    width: 90%;
+    height: 100%;
+    padding: 80px 10px;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    span.serviceSmallHeading {
+    margin-bottom: 0;
+    line-height: 1rem;
+    font-size: 0.6875rem;
+    letter-spacing: 0.1rem;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    h3.serviceH3 {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+    line-height: normal;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    p.servicePara {
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    letter-spacing: 0.025rem;
+    font-size: 1.1rem;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 0.25rem solid #ff8a00;
+    padding-bottom: 0.3125rem;
+    font-size: 1.125rem;
+    color: inherit;
+    text-transform: none;
+    letter-spacing: 0.025rem;
+    overflow: visible;
+    white-space: normal;
+    text-overflow: ellipsis;
+    transition: color 0.15s ease-in-out;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+    transition: 1s;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor
+    .arrowBookNow {
+    color: #ff8a00;
+    font-weight: 700;
+    transition: 0.2s;
+  }
+  section.serviceSection
+    div.serviceDivContainer
+    div.serviceDivRight
+    a.bookNowAnchor:after {
+    content: "";
+    border: 2px solid #ff8a00;
+    position: absolute;
+    width: 0;
+    bottom: -4px;
+    transition: 1s;
+    background: #ff8a00;
+  }
+}

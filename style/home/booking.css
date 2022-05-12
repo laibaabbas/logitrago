@@ -1,0 +1,191 @@
+.tw-booking-area {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.tw-booking-section {
+  padding-bottom: 30px;
+}
+
+.tw-booking-area .tw-booking-media {
+  margin-right: -40px;
+}
+.tw-booking-form {
+  background-color: #fff;
+  padding: 50px 30px;
+  margin-left: 100px;
+  min-height: 540px;
+  box-shadow: 0px 0px 60px rgb(30 143 208 / 70%);
+}
+.tw-booking-form .booking-tab-container {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.tw-booking-form .booking-tab-container .booking-tab-menu {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin-left: -60px;
+  width: 170px;
+}
+.tw-booking-form .booking-tab-container .booking-tab-menu .list-group {
+  margin-bottom: 0;
+}
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.tw-booking-form .booking-tab-container .booking-tab-menu .list-group > a {
+  transition: 0.5s all ease;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+}
+.tw-booking-form
+  .booking-tab-container
+  .booking-tab-menu
+  .list-group
+  > a.active {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 30px rgb(30 143 208 / 50%);
+}
+.tw-booking-form
+  .booking-tab-container
+  .booking-tab-menu
+  .list-group
+  .list-group-item {
+  border-radius: 0px;
+}
+.tw-booking-form
+  .booking-tab-container
+  .booking-tab-menu
+  .list-group
+  > a
+  .media {
+  margin-bottom: 10px;
+  filter: grayscale(100%);
+}
+.tw-booking-form
+  .booking-tab-container
+  .booking-tab-menu
+  .list-group
+  > a.active
+  .media {
+  margin-bottom: 10px;
+  filter: grayscale(0%);
+}
+.tw-booking-form .booking-tab-container .booking-tab-menu .list-group > a span {
+  display: block;
+  color: #b7b8b8;
+}
+.tw-booking-form
+  .booking-tab-container
+  .booking-tab-menu
+  .list-group
+  > a.active
+  span {
+  display: block;
+  color: #0b2f44;
+}
+.tw-booking-form
+  .booking-tab-container
+  .booking-tab-menu
+  .list-group
+  > a:last-child {
+  margin-bottom: 0px;
+}
+
+.tw-booking-form .booking-tab-container .booking-tab-content {
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-top: 10px;
+  transition: 0.5s all ease;
+}
+.tw-inline-checked {
+  display: flex;
+}
+.tw-inline-checked .form-check {
+  margin-right: 30px;
+}
+.tw-inline-checked .form-check .form-check-input {
+  border-radius: 0px;
+}
+.tw-booking-form .tw-booking-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tw-booking-form .tw-booking-footer-text {
+  display: inline-table;
+  font-family: "Oswald", sans-serif;
+  font-size: 120px;
+  line-height: 0.75;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  opacity: 0.05;
+}
+.tw-booking-form .booking-tab-container .booking-tab-content:not(.active) {
+  display: none;
+}
+.tw-booking-form .track-and-trace-form textarea.form-control {
+  min-height: 100px;
+  resize: none;
+}
+
+/* media query */
+@media (max-width: 1199px) {
+  .tw-booking-form .booking-tab-container .booking-tab-menu {
+    width: auto;
+    margin-left: 30px;
+  }
+  .tw-booking-form .booking-tab-container .booking-tab-menu .list-group {
+    display: block;
+  }
+  .tw-booking-form
+    .booking-tab-container
+    .booking-tab-menu
+    .list-group
+    .list-group-item {
+    display: inline-block;
+  }
+  .tw-booking-form .tw-booking-footer-text {
+    font-size: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .tw-booking-area .tw-booking-media {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .tw-booking-form {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .tw-inline-checked {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .tw-booking-form {
+    padding: 20px;
+  }
+  .tw-booking-form .booking-tab-container .booking-tab-menu {
+    margin-left: 10px;
+  }
+  .tw-booking-form .booking-tab-container .booking-tab-menu .list-group > a {
+    padding: 10px;
+  }
+  .tw-booking-form .booking-tab-container .booking-tab-content {
+    padding: 0px;
+  }
+  .tw-booking-form .tw-booking-footer-text {
+    display: none;
+  }
+}

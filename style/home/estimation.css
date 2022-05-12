@@ -1,0 +1,112 @@
+.wt-separator-two-part-row {
+  align-items: center;
+}
+.tw-estimation-section .row {
+  justify-content: center;
+}
+.tw-est-section-block {
+  height: 700px;
+  position: relative;
+  z-index: 1;
+  border: 15px solid transparent;
+  transition: 0.5s all ease;
+}
+.tw-est-section-block .tw-est-section-block-content {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  color: #fff;
+  padding: 10px;
+  transform: translate3d(0%, 0, 0);
+  transition: opacity 0.35s, transform 0.8s;
+}
+.tw-est-section-block .tw-est-section-block-content .tw-est-section-number {
+  font-size: 80px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+.tw-est-section-block .tw-est-section-block-content .tw-title {
+  color: #fff;
+}
+.site-button-2-outline {
+  border: 2px solid #fff;
+  padding: 10px 16px;
+  display: inline-block;
+}
+.site-button-2-outline i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 24px;
+  display: block;
+  position: relative;
+  padding-left: 18px;
+}
+.fa-angle-right:before {
+  content: "\f105";
+}
+.site-button-2-outline i:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  right: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 1px;
+}
+.tw-est-section-block:hover {
+  border: 15px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.tw-est-section-block:hover .tw-est-section-block-content {
+  transform: translate3d(0%, -100px, 0);
+}
+/* media  */
+@media (max-width: 991px) {
+  .tw-estimation-area {
+    padding-bottom: 0px !important;
+  }
+  .wt-small-separator {
+    font-size: 27px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+  }
+  .section-head.left.wt-small-separator-outer h2 {
+    font-size: 30px;
+  }
+  .wt-separator-two-part-right {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .tw-est-section-block {
+    height: auto;
+  }
+  .tw-est-section-block .tw-est-section-block-content {
+    position: relative;
+  }
+  .tw-est-section-block .tw-est-section-block-content .tw-est-section-number {
+    font-size: 40px;
+  }
+  .tw-est-section-block:hover .tw-est-section-block-content {
+    transform: translate3d(0%, -20px, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-head.left.wt-small-separator-outer h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .site-button {
+    padding: 10px 15px;
+  }
+  .btn-half span {
+    font-size: 14px;
+  }
+  .btn-half em {
+    right: 15px;
+  }
+}
